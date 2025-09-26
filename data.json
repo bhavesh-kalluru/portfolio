@@ -3,17 +3,15 @@
   "role": "GenAI / AI Engineer",
   "email": "kallurubhavesh341@gmail.com",
   "trust": [
-    "Shipped ML to production (Banking & Telecom)",
+    "Shipped ML to production ",
     "94%+ DL model accuracy",
     "CI/CD for ML (GitHub Actions, Docker, MLflow)"
   ],
-  "about": "GenAI and AI Engineer with hands\u2011on experience taking NLP and ML systems from notebooks to production, with a focus on fast iteration, reliability, and measurable impact.",
+  "about": "GenAI and AI Engineer with handson of 5 years of experience taking NLP and ML systems from notebooks to production, with a focus on fast iteration, reliability, and measurable impact.",
   "highlights": [
     "Reduced prompt-engineering effort by ~90% via Smart Prompter (GPT + NLP)",
-    "Cut model inference latency by 45% with streaming pipeline (Kafka + TF Serving)",
     "Improved training speed 60% by optimizing feature store + parallel pipelines",
     "Deployed REST APIs for ML with FastAPI & Docker; integrated into dashboards",
-    "Designed AUC/ROC\u2011driven evals; production systems at millions of datapoints/day"
   ],
   "stats": [
     {
