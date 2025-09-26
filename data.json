@@ -1,0 +1,160 @@
+{
+  "name": "Bhavesh Kalluru",
+  "role": "GenAI / AI Engineer",
+  "email": "kallurubhavesh341@gmail.com",
+  "trust": [
+    "Shipped ML to production (Banking & Telecom)",
+    "94%+ DL model accuracy",
+    "CI/CD for ML (GitHub Actions, Docker, MLflow)"
+  ],
+  "about": "GenAI and AI Engineer with hands\u2011on experience taking NLP and ML systems from notebooks to production, with a focus on fast iteration, reliability, and measurable impact.",
+  "highlights": [
+    "Reduced prompt-engineering effort by ~90% via Smart Prompter (GPT + NLP)",
+    "Cut model inference latency by 45% with streaming pipeline (Kafka + TF Serving)",
+    "Improved training speed 60% by optimizing feature store + parallel pipelines",
+    "Deployed REST APIs for ML with FastAPI & Docker; integrated into dashboards",
+    "Designed AUC/ROC\u2011driven evals; production systems at millions of datapoints/day"
+  ],
+  "stats": [
+    {
+      "label": "GPA (MS)",
+      "value": "3.9"
+    },
+    {
+      "label": "Models to prod",
+      "value": "10+"
+    },
+    {
+      "label": "Accuracy (DL)",
+      "value": "94%+"
+    }
+  ],
+  "experience": [
+    {
+      "title": "AI Engineer",
+      "company": "Trine University",
+      "period": "Aug 2023 \u2014 Jul 2025",
+      "impact": "Built Smart Prompter (GPT\u2011powered prompt generator) cutting prompt\u2011engineering time ~90%; implemented intent classification & refinement loop; shipped intuitive UI for technical & non\u2011technical users.",
+      "stack": [
+        "Python",
+        "NLP",
+        "Transformers",
+        "OpenAI API",
+        "FastAPI",
+        "Tkinter/GUI"
+      ]
+    },
+    {
+      "title": "Assistant System Engineer",
+      "company": "Tata Consultancy Services (TCS)",
+      "period": "Aug 2022 \u2014 Aug 2023",
+      "impact": "Developed ML models (regression/classification/clustering) and DL (TensorFlow/PyTorch) for banking & telecom; automated pipelines; built FastAPI services; drove robust evaluation (AUC/ROC, PR).",
+      "stack": [
+        "Python",
+        "scikit\u2011learn",
+        "XGBoost",
+        "TensorFlow",
+        "PyTorch",
+        "FastAPI",
+        "Docker",
+        "NLP"
+      ]
+    },
+    {
+      "title": "ML Engineer Intern",
+      "company": "Besant Technologies",
+      "period": "Dec 2021 \u2014 Jun 2022",
+      "impact": "Deployed real\u2011time ML with Kafka + TF Serving (\u201145% latency); improved training speed 60%; built CI/CD for ML (GitHub Actions, Docker, MLflow); anomaly detection (Autoencoders, Isolation Forests).",
+      "stack": [
+        "Kafka",
+        "TensorFlow Serving",
+        "Pandas",
+        "Docker",
+        "MLflow",
+        "Anomaly Detection"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Smart Prompter",
+      "summary": "AI\u2011powered prompt generator turning short keywords into optimized prompts; uses intent classification and refinement for consistent high\u2011quality LLM outputs.",
+      "year": "2024",
+      "tags": [
+        "GPT",
+        "NLP",
+        "Prompt Engineering",
+        "FastAPI",
+        "Python"
+      ]
+    },
+    {
+      "name": "Lyra AI Assistant (macOS)",
+      "summary": "Lightweight desktop assistant (Python + Tkinter) for notes, summaries, and Q&A with local\u2011first UI.",
+      "year": "2024",
+      "tags": [
+        "Python",
+        "Tkinter",
+        "LLM",
+        "Productivity"
+      ]
+    },
+    {
+      "name": "Brand Catcher Game",
+      "summary": "Interactive Python game for brand recognition with score tracking and adaptive difficulty.",
+      "year": "2023",
+      "tags": [
+        "Python",
+        "Game",
+        "OOP"
+      ]
+    },
+    {
+      "name": "YouTube Summarization (Gemini LLM)",
+      "summary": "Automated pipeline to extract transcripts and produce concise summaries via LLM; deployable across Slack/Chrome/dashboards.",
+      "year": "2021",
+      "tags": [
+        "Gemini",
+        "LLM",
+        "FastAPI",
+        "Prompt Engineering"
+      ]
+    },
+    {
+      "name": "Data Professionals Survey Dashboard",
+      "summary": "Power BI dashboard with DAX and drill\u2011downs on roles, tools, and salary trends; interactive insights for hiring and career planning.",
+      "year": "2021",
+      "tags": [
+        "Power BI",
+        "DAX",
+        "Analytics"
+      ]
+    }
+  ],
+  "skills": [
+    "Python",
+    "JavaScript",
+    "SQL",
+    "TensorFlow",
+    "PyTorch",
+    "Transformers",
+    "Hugging Face",
+    "FastAPI",
+    "Flask",
+    "REST APIs",
+    "Streamlit",
+    "MySQL",
+    "GitHub",
+    "VS Code",
+    "Jupyter",
+    "Power BI",
+    "Matplotlib",
+    "Seaborn",
+    "OpenAI API",
+    "LangChain",
+    "spaCy",
+    "GPT",
+    "Gemini",
+    "Prompt Engineering"
+  ]
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0f0f12" />
+  <title>Bhavesh — Portfolio</title>
+  <meta name="description" content="Portfolio of Bhavesh — building delightful, reliable, and scalable experiences." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preload" href="data.json" as="fetch" crossorigin>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Background canvas animation -->
+  <canvas id="constellation" aria-hidden="true"></canvas>
+
+  <!-- Page wrapper -->
+  <header class="site-header glass">
+    <a class="brand" href="#top" aria-label="Go to top">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M12 2l4 7-4 7-4-7 4-7z" stroke="currentColor" stroke-width="1.5"/>
+      </svg>
+      <span>Bhavesh</span>
+    </a>
+    <nav class="nav">
+      <button class="nav__link" data-scroll="#work">Work</button>
+      <button class="nav__link" data-scroll="#projects">Projects</button>
+      <button class="nav__link" data-scroll="#skills">Skills</button>
+      <button class="nav__link" data-scroll="#about">About</button>
+      <button class="nav__link" data-scroll="#contact">Contact</button>
+      <button id="themeToggle" class="btn ghost" aria-label="Toggle theme">●</button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__content">
+        <h1 class="headline">
+          <span class="sparkle" aria-hidden="true">✦</span>
+          I craft&nbsp;<em>fast</em>, <em>accessible</em>,<br/>
+          and <em>beautiful</em> web experiences.
+        </h1>
+        <p class="subhead">Full‑stack engineer focused on product velocity, delightful UX, and rock‑solid quality.</p>
+        <div class="cta-row">
+          <a href="#contact" class="btn primary">Hire Me</a>
+          <a href="#projects" class="btn secondary">View Projects</a>
+        </div>
+        <ul class="trust-badges" id="trustBadges">
+          <!-- populated from data.json: logos or text -->
+        </ul>
+      </div>
+      <div class="hero__visual" role="img" aria-label="Animated abstract orbits">
+        <div class="orbit orbit--1"><span></span></div>
+        <div class="orbit orbit--2"><span></span></div>
+        <div class="orbit orbit--3"><span></span></div>
+      </div>
+      <a href="#work" class="scroll-indicator" aria-label="Scroll to work">Scroll</a>
+    </section>
+
+    <!-- EXPERIENCE / WORK -->
+    <section id="work" class="section">
+      <div class="section__header">
+        <h2>Experience</h2>
+        <p>Impact, not just responsibilities — mapped directly from your resume.</p>
+      </div>
+      <div id="experienceGrid" class="grid cards"></div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section alt">
+      <div class="section__header">
+        <h2>Projects</h2>
+        <p>Selected builds demonstrating systems thinking, DX, and craft.</p>
+      </div>
+      <div id="projectsGrid" class="grid cards"></div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="section__header">
+        <h2>Skills & Superpowers</h2>
+        <p>Tools and topics I use to ship with confidence.</p>
+      </div>
+      <div id="skillsCloud" class="skills-cloud"></div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section alt about">
+      <div class="about__content">
+        <img src="assets/profile.jpg" class="avatar" alt="Portrait of Bhavesh" />
+        <div>
+          <h2>About</h2>
+          <p id="aboutText">I build for users first and iterate quickly with data. I love shaping 0→1 products and leveling up 1→N platforms.</p>
+          <ul class="highlights" id="highlightsList"></ul>
+          <div class="stats" id="statsRow"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <div class="section__header">
+        <h2>Let’s Talk</h2>
+        <p>Available for full‑time roles in the U.S. — open to backend‑leaning full‑stack or product‑focused frontend.</p>
+      </div>
+      <form id="contactForm" class="contact__form" netlify>
+        <input type="hidden" name="form-name" value="contact" />
+        <div class="input-group">
+          <label for="name">Name</label>
+          <input id="name" name="name" required placeholder="Your name"/>
+        </div>
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input id="email" type="email" name="email" required placeholder="you@example.com"/>
+        </div>
+        <div class="input-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required placeholder="What would you like to build?"></textarea>
+        </div>
+        <div class="form-row">
+          <button type="submit" class="btn primary">Send</button>
+          <a id="downloadResume" class="btn ghost" href="assets/Bhavesh-Kalluru.docx" download>Download Resume</a>
+        </div>
+        <p class="tiny">Prefer email? <a id="emailLink" href="#">Click here</a>.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Bhavesh — Built with love, performance, and a sprinkle of math.</p>
+  </footer>
+</body>
+</html>
